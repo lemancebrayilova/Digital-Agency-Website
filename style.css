@@ -411,7 +411,7 @@ nav{
     aspect-ratio: 1;
     display: grid;
     place-content: center;
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--white);
     background-color: var(--secondary-color);
@@ -419,7 +419,7 @@ nav{
 }
 
 .portfolio__list h4{
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     font-size: 1.125rem;
     font-weight: 700;
     color: var(--text-dark);
@@ -501,6 +501,40 @@ nav{
 .feedback__rating span{
     font-size: 1rem;
     color: goldenrod;
+}
+
+.subscribe__content{
+    padding: 5rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe__content .section__header{
+    margin-bottom: 2rem;
+    max-width: 750px;
+    margin-inline: auto;
+    color: var(--white);
+}
+
+.subscribe__content form{
+    width: 100%;
+    max-width: 600px;
+    margin-inline: auto;
+    padding: .25rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: .5rem;
+}
+
+.subscribe__content input{
+    width: 100%;
+    padding-inline: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--text-dark);
 }
 
 @media (width > 540px){

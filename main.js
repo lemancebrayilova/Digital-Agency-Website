@@ -70,6 +70,13 @@ ScrollReveal().reveal(".portfolio__list li", {
     delay: 1500,
 });
 
+ScrollReveal().reveal(".subscribe__content .section__header", {
+    ...scrollRevealOption,
+});
+ScrollReveal().reveal(".subscribe__content form", {
+    ...scrollRevealOption,
+    delay: 500,
+});
 
 
 const swiper = new Swiper(".swiper", {
