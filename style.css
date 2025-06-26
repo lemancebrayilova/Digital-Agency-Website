@@ -433,7 +433,7 @@ nav{
     padding-bottom: 3rem;
 }
 
-.swiper{
+.swiper-wrapper{
     padding-block: 4rem 2rem;
     width: 100%;
 }
@@ -611,5 +611,9 @@ nav{
 @media (width > 1024px){
     .service__grid{
         gap: 1.5rem;
+    }
+
+    .feedback__card{
+        padding: 2rem 1.5rem;
     }
 }
